@@ -1,9 +1,9 @@
 import definicije as defi
 
+board = defi.create_board()
 
-defi.print_board(defi.board)
+defi.print_board(board) 
+defi.play_turn(board)
 
-defi.drop_piece(defi.board, defi.column, defi.piece) # Tu je napaka.
-
-defi.play_turn(defi.board)
+defi.print_board(board)
 
