@@ -37,3 +37,5 @@ def play_turn(board):
         except ValueError:
             print("Prosim vnesi številsko vrednost.")
 
+
+

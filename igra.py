@@ -1,5 +1,9 @@
-import definicije
+import definicije as defi
 
-definicije.print_board(definicije.board)
 
+defi.print_board(defi.board)
+
+defi.drop_piece(defi.board, defi.column, defi.piece) # Tu je napaka.
+
+defi.play_turn(defi.board)
 
